@@ -13,10 +13,10 @@ public class LoginTest extends BaseTest {
     public void enterEmailAndPasswordToLogin() {
         var homePage = loginPage.enterEmailAndPasswordToLogin(userName, password);
         homePage.clickOnAdminLink();
-       homePage.numberOfRecords();
-       homePage.addEmployee();
-       homePage.fillRequireData();
-       homePage.numberOfRecords();
+        homePage.numberOfRecords();
+        homePage.addEmployee();
+        homePage.fillRequireData();
+        homePage.numberOfRecords();
         homePage.searchWithName();
 
     }
